@@ -23,6 +23,7 @@ div{
 	position: fixed;
 	right: -50px;
 	top: 0px;
+	z-index: 99999;
 	/*background-color: red;*/
 }
 .box1{
@@ -96,6 +97,7 @@ div{
 	line-height: 34px;
 	font-size: 12px;
 	margin: 0 6px;
+	position: relative;
 	/*float: left;*/
 }
 .separator{
@@ -127,7 +129,7 @@ div{
 .s1{
 	position: absolute;
     top: 9px;
-    left: 88px;
+    left: -2px;
     z-index: 2;
     width: 21px;
     height: 21px;
@@ -352,13 +354,13 @@ div{
 	/*background:red;*/
 }
 .top_banner a{
-	width: 1347px;
 	height: 80px;
 	display: block;
 	background:url(../img/top.jpg);
 	/*background-repeat: no-repeat;*/
 	background-position-x: 50%;
     background-position-y: 0%;
+    margin: auto;
 }
 /* 头部banner 结束 */
 /*头部搜索框 开始*/
@@ -849,7 +851,7 @@ i{
 	
 }
 .content{
-	width: 1190px;
+	max-width: 1190px;
 	height: 470px;
 	/*margin:0 auto;*/
 	margin-left: 79.5px;
