@@ -83,7 +83,6 @@ $(function(){
 		if(index>=arr[0]-200){
 			if(flag1){
 				flag1 = false;
-				
 				animate(rightside,{right:10})
 			}
 		}else{
